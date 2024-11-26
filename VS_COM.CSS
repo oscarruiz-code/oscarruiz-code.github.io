@@ -1,0 +1,382 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body,html{
+
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(FONDO_DISTORCIONADO.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+
+}
+ 
+.ventana {
+
+    background-image: url(ARENA3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    border: 4px solid black; 
+
+}
+
+.contenedor1{
+
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: start;
+
+}
+
+.contenedor2{
+
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+
+}
+
+.personajes{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 100%;
+    width: 70%;
+
+}
+
+.personaje{
+
+    background-image:url(RYU.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.personaje1{
+
+    background-image:url(KEN.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    transform: scaleX(-1);
+    margin-bottom: 20px;
+
+}
+
+.personaje11{
+
+    background-image:url(KEN_BOLA.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 400px;
+    display: none;
+    margin-bottom: 20px;
+    margin-left: 270px;
+
+}
+
+.personaje2{
+
+    background-image:url(RYU-BOLA.gif);
+    background-repeat: no-repeat;
+    background-size: 740px;
+    height: 430px;
+    width: 100%;
+    display: none;  
+}
+
+.personaje3{
+
+    background-image:url(RYUKEN_BOLA.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 360px;
+    width: 600px;
+    display: none;
+    transform: scaleX(-1);
+    margin-bottom: 20px;
+
+}
+
+.contador{
+
+    height: 70px;
+    width: 70px;
+    transform: rotate(180deg);
+    margin-top: 40%;
+}
+
+.color_fondo{
+
+    height: 0;
+    width: 100%;
+    background-color: black;
+
+}
+
+
+.numero{
+
+    height: 100%;
+    width: 100%;
+    font-size: 40px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:orange;
+    background-color: black;
+    mix-blend-mode: screen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-180deg);
+    border-radius: 10%;
+    border: 1px solid red;
+    text-shadow: 1px  0px 0px red,
+    0px  1px 0px red,
+   -1px  0px 0px red,
+    0px -1px 0px red;
+
+}
+
+.boton1{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+}
+
+
+.boton2{
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    align-items: center;
+
+}
+
+.puño{
+
+    background-image: url(piedra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    margin-top: 200px;
+
+}
+
+.tijera{
+
+    background-image: url(tijera.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    
+}
+
+.papel{
+
+    background-image: url(papel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+
+}
+
+.objeto1{
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+}
+
+.objeto2{
+
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+}
+
+.barra1{
+    
+    background-image: url(barra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
+    display: flex;
+    margin-top: 35px;
+    width: 35%;
+    height: 100%;
+
+}
+
+.barra2{
+    background-image: url(barra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 35px;
+    display: flex;
+    align-items: end;
+    width: 35%;
+    height: 100%;
+
+}
+
+.contador1{
+
+    display: flex;
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.puño1{
+
+    background-image: url(piedra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    display: none;
+    margin-top: 30px;
+    
+
+}
+
+.tijera1{
+
+    background-image: url(tijera.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    display: none;
+    margin-top: 30px;
+    
+}
+
+.papel1{
+
+    background-image: url(papel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    display: none;
+    margin-top: 30px;
+
+}
+
+.puño2{
+
+    background-image: url(piedra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    display: none;
+    margin-top: 30px;
+    
+
+}
+
+.tijera2{
+
+    background-image: url(tijera.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    display: none;
+    margin-top: 30px;
+    
+}
+
+.papel2{
+
+    background-image: url(papel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: orange;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px;
+    border: 2px solid red;
+    border-radius:10%;
+    display: none;
+    margin-top: 30px;
+
+}

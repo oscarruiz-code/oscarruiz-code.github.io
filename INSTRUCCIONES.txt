@@ -1,0 +1,32 @@
+ABRIR EN GOOGLE CHROME
+SE REQUIERE USO DE TECLADO O TECLADO MOVIL
+
+---------------------------------
+
+PRIMERA PAGINA SERIA CIN_FUTURO_PROYECT
+SEGUNDA PAGINA PUEDE SER O VS_COM / VS_COM1
+
+---------------------------------
+
+DENTRO DEL PROYECTO PUEDES ABRIRLO EN VS CODE Y VERAS LOS DIFERENTES ARCHIVOS A USAR
+
+---------------------------------
+
+PARA JUGAR SE UTILIZARIAN LAS SIGUIENTES TECLAS:
+
+    EN JUEGO 1 VS 1
+
+    PRIMER JUGADOR = a(piedra), s(papel), d(tijera)
+    SEGUNDO JUGADOR = j(piedra), k(papel), l(tijera)
+
+    CONTRA COMPUTADORA
+
+    PRIMER JUGADOR = a(piedra), s(papel), d(tijera)
+
+-----------------------------------
+
+GUARDA EL HISTORIAL DE LAS PARTIDAS DESCARGANDOSE UN ARCHIVO TXT
+
+-----------------------------------
+
+DISFRUTA DEL JUEGO!!!

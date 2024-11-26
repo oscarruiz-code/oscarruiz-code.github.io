@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CIN_FUTURO_PROYECT.css">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+    <link rel="icon" href="icono.png" type="image/x-icon">
+
+    <title>CIN FUTURO PROYECT</title>
+
+</head>
+
+<body>
+
+
+    <div class="ventana">
+
+        <!--SERIAN LOS BOTONES DE ELLECION DE JUEGO JUNTO SUS CLASES CSS ADJUNTAS-->
+        <div class="botones">
+
+            <a href="VS_COM1.html">
+            <button class="jugar" type="submit">VS. COM</button>
+            </a>
+            <a href="VS_COM.html">
+            <button class="jugar" type="submit">VS. PLAYER</button>
+            </a>
+            
+
+            <button class="jugar" onclick="cerrar()">EXIT</button>
+
+        </div>
+
+        <!--SERIA LA IMAGEN DEL LOGO JUNTO A SU CLASE CSS ADJUNTA-->
+        <div class="imagen">
+
+            <div class="imagen_visible"></div>
+
+            <div class="descargar">
+
+                <button class="boton_descarga" onclick="descargarHistorial()">HISTORIAL</button>
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+    <!--SCRIPT QUE NOS PERMITE CERRAR JUEGO-->
+    <script src="funcion.js"></script>
+    <script src="juego.js"></script>
+    <script src="contador.js"></script>
+
+</body>
+
+</html>
