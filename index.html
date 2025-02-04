@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Óscar Ruiz Rosa</title>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("b4qmh4CqVf3JJqzuV");
+        })();
+    </script>
+    <link rel="stylesheet" href="estilos/Estilos.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>PORTAFOLIO</h1>
+            <div class="links">
+                <a href="#experiencia">💼</a>  <!-- Emoticono de experiencia -->
+                <a href="#proyectos">🛠️</a>   <!-- Emoticono de proyectos -->
+                <a href="#curriculum">📄</a>   <!-- Emoticono de currículum -->
+                <a href="#contacta-conmigo">📧</a> <!-- Emoticono de contacto -->
+                <a href="https://github.com/oscarruiz-code" target="_blank">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" class="icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Imagen debajo del encabezado -->
+    <div class="profile-image">
+        <img src="recursos/IMAG.PNG" alt="Óscar Ruiz Rosa">
+    </div>
+
+    <div class="section" id="experiencia">
+        <h2>FORMACIÓN</h2>
+        <ul class="experiencia-list">
+            <li>
+                <span class="fecha">2023-2025</span>
+                <div class="detalle">
+                    <p><strong>IES Antonio Gala, Palma Del Río (Córdoba)</strong></p>
+                    <p>Ciclo Superior en Desarrollo de Aplicaciones Multiplataforma</p>
+                </div>
+            </li>
+            <li>
+                <span class="fecha">2017-2019</span>
+                <div class="detalle">
+                    <p><strong>IES Nicolás Copérnico, Écija</strong></p>
+                    <p>Bachillerato en Ciencias Tecnológicas</p>
+                </div>
+            </li>
+            <li>
+                <span class="fecha">2020-2022</span>
+                <div class="detalle">
+                    <p><strong>San Luis Rey, Palma Del Río (Córdoba)</strong></p>
+                    <p>Ciclo Superior en Automatización y Robótica Industrial</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="conocimientos">
+        <h2>CONOCIMIENTOS</h2>
+        <ul class="conocimientos-list">
+            <li>
+                <p><strong>Manejo de Programas:</strong> • Autocad • Solid Work • Tia Portal • CX Programmer • Unity • IntellIj • Visual Studios • Eplan</p>
+            </li>
+            <li>
+                <p><strong>Uso de lenguajes de programación:</strong> • Java • JavaScript • PHP • Kotlin • C#</p>
+            </li>
+            <li>
+                <p><strong>Uso de lenguaje de marcado y estilos:</strong> • Html • Css • XML</p>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="section" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project-gallery">
+            <div class="project-item">
+                <a href="https://github.com/oscarruiz-code/MarioKart" target="_blank">
+                    <img src="recursos/mariokart.PNG" alt="MarioKart">
+                </a>
+                <p>MarioKart</p>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/oscarruiz-code/ChatSocketJava" target="_blank">
+                    <img src="recursos/chat.PNG" alt="ChatSocket">
+                </a>
+                <p>ChatSocket</p>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/oscarruiz-code/ProyectoFinalPrimeroDAM" target="_blank">
+                    <img src="recursos/libreria.PNG" alt="Libreria">
+                </a>
+                <p>Libreria</p>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/oscarruiz-code/LC" target="_blank">
+                    <img src="recursos/PDO.PNG" alt="BD PDO">
+                </a>
+                <p>BD PDO</p>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/oscarruiz-code/ConexionJavaHibernate" target="_blank">
+                    <img src="recursos/hibernate.PNG" alt="Hibernate">
+                </a>
+                <p>Hibernate</p>
+            </div>
+            <div class="project-item">
+                <a href="https://github.com/oscarruiz-code/PiedraPapelTijera" target="_blank">
+                    <img src="recursos/street.PNG" alt="PiedraPapelTijera">
+                </a>
+                <p>PiedraPapelTijera</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Currículum -->
+    <div class="section" id="curriculum">
+        <h2>Currículum</h2>
+        <p><strong>Currículum:</strong> <a href="https://drive.google.com/file/d/11eA0QhJd_zmoktybtMdWZv47M7wp9pwv/view?usp=sharing" target="_blank">Descargar</a></p>
+    </div>
+
+    <!-- Contacto -->
+    <div class="section footer">
+        <h2>Contacta conmigo</h2>
+        <form id="contacta-conmigo" onsubmit="sendEmail(event)">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="Nombre Completo *" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Dirección de Email" required>
+            <br>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" placeholder="Tu Mensaje..." required></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+<script src="JS/scrips.js"></script>
+
+</body>
+</html>
